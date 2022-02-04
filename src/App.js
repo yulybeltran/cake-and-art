@@ -7,8 +7,10 @@ import {Catalogo} from './pages/Catalogo';
 import {Footer} from './components/Footer';
 
 
+
 function App() {
   return (
+    
    <BrowserRouter>
    <Navbar/>
     <Routes>

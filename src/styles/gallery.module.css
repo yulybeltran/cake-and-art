@@ -1,0 +1,15 @@
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-bottom:60px;
+}
+
+.gallery img {
+    max-width:250px;
+    margin:10px auto;
+    box-shadow: 4px 4px 6px #000;
+    
+}
