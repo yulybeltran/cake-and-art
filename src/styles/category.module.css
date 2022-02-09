@@ -1,0 +1,45 @@
+.category{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    font-family: 'Mochiy Pop One', sans-serif;
+    align-items:flex-end
+}
+
+.category button img{
+    max-width:250px;
+}
+
+.category button{
+    max-width:300px;
+    width:100%;
+    border: none;
+    background-color:transparent;
+    transition: 3s;
+    transform:scale(1);
+    -ms-transform:scale(1);
+
+}
+
+.category button:hover{
+    transform:scale(1.2);
+    -ms-transform:scale(1.2);
+}
+
+.categories h2{
+    font-size:20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+	.category img{
+        max-width:150px;
+        width:100%;
+       
+    
+    }
+    .categories h2{
+        font-size:16px;
+        text-align: center;
+    }
+}

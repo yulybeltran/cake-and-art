@@ -1,0 +1,15 @@
+.cartShopping{
+    max-width: 80%;
+    background-color: #108888;
+    padding: 20px;
+    text-align: center;
+    font-family: 'cardo';
+    margin:auto;
+    border-radius: 10px;
+}
+
+.cartShopping button{
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Mochiy Pop One', sans-serif;
+}

@@ -1,11 +1,15 @@
 import React from 'react';
 import {Banner} from '../components/Banner';
-import { Accountant } from '../components/Accountant';
+
+import {Category} from '../components/Category';
+import { ShoppingCart } from '../components/Shoppingcart';
+
 
 function Home() {
   return <div>
     <Banner />
-    <Accountant/>
+    <Category/>
+    <ShoppingCart/> 
   </div>;
 }
 
