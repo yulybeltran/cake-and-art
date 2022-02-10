@@ -49,7 +49,7 @@ const ProductItem = ({ data, addToCart }) => {
         </div>
        
         </div>
-        <p><span> Nota:</span> Cualquier torta decorada, su precio va a variar <br/>según su diseño y cantidad en porciones.</p>
+        <p><span> Nota:</span> Cualquier torta decorada, su precio va a variar según su diseño y cantidad en porciones.</p>
         </div>
        
       </div>

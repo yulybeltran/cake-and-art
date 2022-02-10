@@ -7,7 +7,7 @@ import {
 import { CartItem } from "./CartItem";
 import { ProductItem } from "./ProductItem";
 import style from "../styles/shoppingcart.module.css";
-;
+
 
 const ShoppingCart = () => {
   const [state, dispatch] = useReducer(shoppingReducer, shoppingInitialState);

@@ -1,7 +1,6 @@
 import React from "react";
 import style from "../styles/category.module.css";
-import {shoppingInitialState, shoppingReducer} from "../reducers/shoppingReducer"
-import { useReducer } from "react"
+
 
 function Category () {
 

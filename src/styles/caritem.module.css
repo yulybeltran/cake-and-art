@@ -1,7 +1,38 @@
 .car{
     font-family: 'Cardo', serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
 }
 
 .car img{
 max-width:200px;
 }
+
+.carButon{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.car button{
+    padding: 10px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #000000;
+    cursor: pointer;
+}
+
+.car button:hover{
+    background-color: #E090B0;
+    color: #ffffff;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .car img{
+        
+        max-width: 150px;
+        
+      
+        }  }

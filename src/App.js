@@ -5,6 +5,7 @@ import {Home} from './pages/Home';
 import {Error} from './pages/Error';
 import {Catalogo} from './pages/Catalogo';
 import {Footer} from './components/Footer';
+import { Cartshoping } from "./pages/Cartshoping";
 
 
 
@@ -18,7 +19,7 @@ function App() {
     
       <Route path="/" element={ <Home/>}/>
       <Route path="catalogo" element={<Catalogo/>}/>
-      <Route path="catalogo" element={<Catalogo/> }/>
+      <Route path="car" element={<Cartshoping/> }/>
       <Route path="*" element={<Error/>}/>
       
    </Routes>

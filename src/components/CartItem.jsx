@@ -6,19 +6,27 @@ const CartItem = ({ data, delFromCart, addToCart}) => {
   
     return (
       <div className={style.car}>
+        <div>
         <img src={img} alt="Producto" />
         <h4>{name}</h4><br></br>
         <h3>{portions}</h3>
         <br></br>
+        </div>
+        <div>
         <h3>
           ${price}<br></br> Cantidad {quantity}<br></br>Total ${price * quantity}
-        </h3><br></br>
+        </h3>
+        <br></br>
+        <div className={style.carButon}>
         <button onClick={() => delFromCart(id)}>-</button>
+       
+        <button onClick={() => addToCart(id)}>+</button>
+        </div>
         <br /><br></br>
         <button onClick={() => delFromCart(id, true)}>Eliminar Todos</button>
-        <br /><br></br>
-        <button onClick={() => addToCart(id)}>Agregar</button>
+        
         <br />
+        </div>
       </div>
     );
   };
