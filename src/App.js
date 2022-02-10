@@ -1,19 +1,18 @@
 
-import {BrowserRouter, Route, Routes} from "react-router-dom"
+import {HashRouter, Route, Routes} from "react-router-dom"
 import {Navbar} from "./components/Navbar"
 import {Home} from './pages/Home';
 import {Error} from './pages/Error';
 import {Catalogo} from './pages/Catalogo';
 import {Footer} from './components/Footer';
 
-import{Cartshoping} from "./pages/Cartshoping";
 
 
 
 function App() {
   return (
     
-   <BrowserRouter>
+    <HashRouter>
    <Navbar/>
     <Routes>
     
@@ -24,7 +23,7 @@ function App() {
       
    </Routes>
    <Footer/>
-   </BrowserRouter>
+   </HashRouter>
     
     
   );
