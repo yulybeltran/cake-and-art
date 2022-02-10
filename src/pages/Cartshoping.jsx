@@ -1,4 +1,6 @@
 import React from 'react';
+import { ShoppingCart } from '../components/Shoppingcart';
+
 
 const Cartshoping = () => {
   return <div>
@@ -6,4 +8,4 @@ const Cartshoping = () => {
   </div>;
 };
 
-export default Cartshoping;
+export { Cartshoping}

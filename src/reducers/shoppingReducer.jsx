@@ -3,6 +3,7 @@ import { TYPES } from "../actions/shoppingAction";
 export const shoppingInitialState = {
   products: [
     { id: 1,
+       category:"a",
        name: "Fondant 3D", 
        img:"https://drive.google.com/uc?export=download&id=1OsKk8pEgbGtXyJTkwJktcPbmQgm87dQh", 
        portions: "25 Porciones", price: 40, 

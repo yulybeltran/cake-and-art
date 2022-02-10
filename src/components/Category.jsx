@@ -1,16 +1,18 @@
 import React from "react";
 import style from "../styles/category.module.css";
-
+import {shoppingInitialState, shoppingReducer} from "../reducers/shoppingReducer"
+import { useReducer } from "react"
 
 function Category () {
 
-  
+
+
 
 
   return (
     <div className={style.category}>
       <div className={style.categories}>
-        <button ><img
+        <button  ><img
           src="https://drive.google.com/uc?export=download&id=12nGsPNOO2mgEGG-wymIIq3N3RDsV1H9R"
           alt="Imagen Gallery"
         /></button>
